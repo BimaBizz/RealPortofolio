@@ -5,7 +5,7 @@
         }],
     "headers": [
             {
-              "source": "https://api.baserow.io/api/database/rows/table/200565/?user_field_names=true",
+              "source": "/api/(.*)",
               "headers": [
                 { "key": "Access-Control-Allow-Credentials", "value": "true" },
                 { "key": "Access-Control-Allow-Origin", "value": "*" },
